@@ -52,3 +52,24 @@ button{
   border-radius:50%;
   object-fit:cover;
 }
+#people{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.person{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  background:#0f1a24;
+  padding:12px;
+  border-radius:12px;
+}
+
+.person img{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
