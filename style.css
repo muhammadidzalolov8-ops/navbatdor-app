@@ -1,57 +1,54 @@
-body{font-family:system-ui;background:#0b0f17;color:#fff;padding:20px}
-button{padding:10px;border-radius:8px}
-img{width:60px;height:60px;border-radius:12px;object-fit:cover}
 body{
-  margin:0;
   font-family: system-ui;
-  background:#0f172a;
-  color:white;
-  display:flex;
-  justify-content:center;
-}
-
-.card{
-  width:360px;
+  background: #0f172a;
+  color:#fff;
   padding:20px;
+  max-width:900px;
+  margin:auto;
 }
 
 h1{
-  font-size:34px;
+  font-size:48px;
+  margin-bottom:20px;
 }
 
 input{
-  width:100%;
   padding:12px;
-  margin:10px 0;
-  border-radius:10px;
+  border-radius:12px;
   border:none;
-  font-size:16px;
+  width:60%;
+  font-size:18px;
 }
 
 button{
-  width:100%;
-  padding:14px;
-  margin-top:10px;
-  border-radius:10px;
+  padding:12px 18px;
+  border-radius:12px;
   border:none;
+  font-size:18px;
   background:#22c55e;
   color:white;
-  font-size:18px;
+  margin-left:10px;
+}
+
+#people{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
 }
 
 .person{
   display:flex;
   align-items:center;
-  gap:10px;
+  gap:15px;
   background:#1e293b;
   padding:10px;
-  margin-top:12px;
-  border-radius:12px;
+  border-radius:16px;
 }
 
 .person img{
-  width:60px;
-  height:60px;
+  width:70px;
+  height:70px;
   border-radius:50%;
   object-fit:cover;
 }
