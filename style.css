@@ -1,3 +1,57 @@
 body{font-family:system-ui;background:#0b0f17;color:#fff;padding:20px}
 button{padding:10px;border-radius:8px}
 img{width:60px;height:60px;border-radius:12px;object-fit:cover}
+body{
+  margin:0;
+  font-family: system-ui;
+  background:#0f172a;
+  color:white;
+  display:flex;
+  justify-content:center;
+}
+
+.card{
+  width:360px;
+  padding:20px;
+}
+
+h1{
+  font-size:34px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:10px;
+  border:none;
+  font-size:16px;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  margin-top:10px;
+  border-radius:10px;
+  border:none;
+  background:#22c55e;
+  color:white;
+  font-size:18px;
+}
+
+.person{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  background:#1e293b;
+  padding:10px;
+  margin-top:12px;
+  border-radius:12px;
+}
+
+.person img{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  object-fit:cover;
+}
